@@ -1,0 +1,18 @@
+/* Center the h1, nav, and footer elements within their containers */
+h1, nav, footer {
+    text-align: center;
+}
+
+/* Center the image within its container and give it a width of 80% */
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Center the paragraph container within its container and give it a width of 80% */
+main p {
+    width: 80%;
+    margin: 0 auto;
+    /* Optionally, you can add text-align: center; to center the content of the paragraph within the container */
+}
