@@ -38,8 +38,8 @@ nav a:hover {
 }
 
 footer {
-    background-color: #472D30; 
-    color: #ffffff; 
+    background-color: #472D30;
+    color: #ffffff;
 }
 
 footer a:hover {
@@ -62,5 +62,5 @@ nav a, .book, .join, footer a {
 
 /* Larger Font Size for Footer Text */
 footer p {
-    font-size: 1.2em; /* Adjust the font size as needed */
+    font-size: 1.2em; 
 }
