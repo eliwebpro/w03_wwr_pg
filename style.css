@@ -1,18 +1,66 @@
-/* Center the h1, nav, and footer elements within their containers */
-h1, nav, footer {
-    text-align: center;
-}
-
-/* Center the image within its container and give it a width of 80% */
-img {
-    width: 80%;
-    display: block;
+/* CSS for the Whole Page Container */
+#content {
+    max-width: 1600px;
     margin: 0 auto;
 }
 
-/* Center the paragraph container within its container and give it a width of 80% */
-main p {
-    width: 80%;
+/* Centering the Page */
+#content {
     margin: 0 auto;
-    /* Optionally, you can add text-align: center; to center the content of the paragraph within the container */
+}
+
+/* Background Colors */
+body {
+    background-color: #e2eafc;
+}
+
+header {
+    background-color: #472D30;
+}
+
+nav a:hover {
+    background-color: #FFE1A8;
+    color: #C9CBA3;
+}
+
+.book, .join, .book:hover, .join:hover {
+    background-color: #c9cba3;
+    color: #472D30;
+}
+
+#background {
+    height: 725px;
+}
+
+.msg {
+    background-color: #c9cba3;
+    color: #472D30;
+}
+
+footer {
+    background-color: #472D30; 
+    color: #ffffff; 
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Widths */
+.logo, .icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+/* Remove Underlines from Links */
+nav a, .book, .join, footer a {
+    text-decoration: none;
+}
+
+/* Larger Font Size for Footer Text */
+footer p {
+    font-size: 1.2em; /* Adjust the font size as needed */
 }
