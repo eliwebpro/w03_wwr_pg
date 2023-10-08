@@ -4,11 +4,6 @@
     margin: 0 auto;
 }
 
-/* Centering the Page */
-#content {
-    margin: 0 auto;
-}
-
 /* Background Colors */
 body {
     background-color: #e2eafc;
@@ -16,17 +11,17 @@ body {
 
 header {
     background-color: hsl(38, 73%, 93%);
-    color: ffffff;
+    color: #ffffff; /* Fixed the color value */
 }
 
 nav a:hover {
     background-color: #FFE1A8;
-    color: white;
+    color: #ffffff; /* Fixed the color value */
 }
 
 .book, .join, .book:hover, .join:hover {
     background-color: #c9cba3;
-    color: black;
+    color: #472D30; /* Fixed the color value */
 }
 
 #background {
@@ -35,20 +30,24 @@ nav a:hover {
 
 .msg {
     background-color: #c9cba3;
-    color: black;;
+    color: #472D30; /* Fixed the color value */
 }
 
 footer {
     background-color: hsl(38, 73%, 93%);
-    color: black;
+    color: #472D30; /* Fixed the color value */
 }
 
 footer a:hover {
     text-decoration: underline;
 }
-#hero-msg h1,
-#hero-msg h4 {
-    text-align: center;
+
+/* Center only the images with the center-image class */
+.center-image {
+    display: block;
+    margin: 0 auto;
+}
+
 /* Widths */
 .logo, .icon {
     width: 80px;
@@ -66,16 +65,12 @@ nav a, .book, .join, footer a {
 
 .button-box {
     text-align: center;
-
+}
 
 footer p {
-    font-size: 1.2em; 
+    font-size: 1.2em;
 }
+
 main section {
     text-align: center;
-}
-/* Center only the images with the center-image class */
-.center-image {
-    display: block;
-    margin: 0 auto;
 }
