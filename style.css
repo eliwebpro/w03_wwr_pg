@@ -20,7 +20,7 @@ header {
 }
 
 nav a:hover {
-    background-color: #FFE1A8;
+    background-color: black;
     color: #ffffff; /* Fixed the color value */
 }
 
