@@ -46,7 +46,9 @@ footer {
 footer a:hover {
     text-decoration: underline;
 }
-
+#hero-msg h1,
+#hero-msg h4 {
+    text-align: center;
 /* Widths */
 .logo, .icon {
     width: 80px;
@@ -59,9 +61,21 @@ footer a:hover {
 /* Remove Underlines from Links */
 nav a, .book, .join, footer a {
     text-decoration: none;
+    text-align: center;
 }
 
-/* Larger Font Size for Footer Text */
+.button-box {
+    text-align: center;
+
+
 footer p {
     font-size: 1.2em; 
+}
+main section {
+    text-align: center;
+}
+/* Center only the images with the center-image class */
+.center-image {
+    display: block;
+    margin: 0 auto;
 }
