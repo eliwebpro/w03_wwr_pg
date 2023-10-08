@@ -1,9 +1,4 @@
 /* CSS for the Whole Page Container */
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
 /* Centering the Page */
 #content {
     margin: 0 auto;
