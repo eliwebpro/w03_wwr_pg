@@ -16,7 +16,7 @@
 
 /* body */
 body {
-    background-color: #e2eafc;
+    background-color: #a9b1c5;
     font-family: 'Roboto', Arial, sans-serif;
     font-size: 22px;
     margin: 0;
@@ -104,7 +104,7 @@ footer a:hover {
 /* padding navigation links */
 nav a {
     text-decoration: none;
-    color: #faeded;
+    color: #000000;
     text-align: center;
     padding: 35px;
 }
