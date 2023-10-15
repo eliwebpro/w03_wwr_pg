@@ -146,5 +146,5 @@ main section {
 
 /* Rounded borders for social media icons */
 .social img {
-    border-radius: 51%; /* 50% border-radius creates a circle */
+    border-radius: 50%; /* 50% border-radius creates a circle */
 }
