@@ -199,11 +199,11 @@ main section {
 .rivers-card {
     grid-column: 2/4;
     grid-row: 2/3;
-    z-index: 1;
 }
 .camping-card {
     grid-column: 5/7;
     grid-row: 2/3;
+    z-index: 1;
 }
 .rapids-card { 
     grid-column: 8/10;
@@ -215,7 +215,7 @@ main section {
 }
 .mountains { 
     grid-column: 2/7;
-    grid-row: 5/8;
+    grid-row: 2/3;
     width: 100%;
     box-shadow: 5px 5px 10px #6f7364;
 }
