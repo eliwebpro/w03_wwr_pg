@@ -219,7 +219,6 @@ main section {
     grid-row: 5/8;
     width: 100%;
     box-shadow: 5px 5px 10px #6f7364;
-    z-index: -1;
 }
 .msg { 
     grid-column: 6/10;
@@ -238,8 +237,7 @@ main section {
 }
 
 a.join:hover {
-   
-    text-decoration: underline;
+       text-decoration: underline;
 }
 
 
