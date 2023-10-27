@@ -215,7 +215,7 @@ main section {
 }
 .mountains { 
     grid-column: 2/7;
-    grid-row: 2/3;
+    grid-row: 5/8;
     width: 100%;
     box-shadow: 5px 5px 10px #6f7364;
 }
@@ -231,9 +231,11 @@ main section {
 
 }
 .button-box:hover {
-    opacity: .6;
-    transform: scale(1.1);
+    background-color: #6f7364;
+    transform: scale(1.1); 
+    transition: background-color 0.3s, transform 0.3s; 
 }
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
