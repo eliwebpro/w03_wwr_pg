@@ -46,10 +46,19 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
+    background-color: none;
 }
 
 nav a:hover {
     transform: rotate(15deg);
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    
 }
 
 .book, .join, .book:hover, .join:hover {
@@ -118,13 +127,6 @@ footer a:hover {
 }
 
 /* padding navigation links */
-nav a {
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    padding: 35px;
-    
-}
 
 .book, .join {
     text-decoration: none;
