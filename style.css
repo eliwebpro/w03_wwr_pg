@@ -236,10 +236,6 @@ main section {
     transform: scale(1.1); 
     transition: background-color 0.3s, transform 0.3s; 
 }
-a.join:hover {
-    color: #ff6600; /* Change the text color to your desired color */
-    text-decoration: underline; /* Add an underline when hovering */
-}
 
 
 
