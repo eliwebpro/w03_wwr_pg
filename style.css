@@ -50,7 +50,8 @@ nav {
 }
 
 nav a:hover {
-    transform: rotate(15deg);
+    transform: scale(1.1); 
+    transition: background-color 0.3s, transform 0.3s; 
 }
 
 nav a {
