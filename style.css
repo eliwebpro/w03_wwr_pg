@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gluten&family=Roboto:wght@300;400&family=Texturina:opsz,wght@12..72,800&display=swap');
 
 
-/* Define font-family for the headline with backup fonts */
+/*  font-family for the headline with backup fonts */
 .home-title, .msg h2 {
     font-family: 'Raleway', Arial, sans-serif;
     font-size: 2em;
@@ -83,7 +83,7 @@ footer {
     align-items: center;
 }
 
-/* Add padding to the images inside the .social section in the footer */
+/* padding to the images inside the .social section in the footer */
 footer .social img {
     padding-top: 15px;
 }
@@ -126,7 +126,6 @@ nav a {
     
 }
 
-/* Remove Underlines from Links - fixed syntax error */
 .book, .join {
     text-decoration: none;
     text-align: center;
@@ -136,10 +135,15 @@ nav a {
     border-radius: 5px;
 }
 
-/* Added missing period to the class selector .card-img */
 .card-img {
     border: 10px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
 }
+
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
 
 /* margin to the .rivers-card, .camping-card, and .rapids-card sections */
 .rivers-card, .camping-card, .rapids-card {
@@ -154,7 +158,6 @@ footer p {
     font-size: 1.2em;
 }
 
-/* Added missing period to the class selector .main section */
 main section {
     text-align: center;
     box-sizing: border-box;
@@ -205,8 +208,13 @@ main section {
 .mountains { 
     grid-column: 2/7;
     grid-row: 5/8;
+    width: 100%;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .msg { 
     grid-column: 6/10;
     grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+    padding: 35px;
 }
+
