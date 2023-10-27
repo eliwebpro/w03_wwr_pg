@@ -230,6 +230,10 @@ main section {
     text-align: center;
 
 }
+.button-box:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
