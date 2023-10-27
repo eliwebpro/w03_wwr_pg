@@ -144,6 +144,7 @@ nav a {
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
+}
 
 /* margin to the .rivers-card, .camping-card, and .rapids-card sections */
 .rivers-card, .camping-card, .rapids-card {
@@ -183,6 +184,12 @@ main section {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
+    color: white;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
 
 .card-img, .mountains {
@@ -202,8 +209,8 @@ main section {
     grid-row: 2/3;
 }
 #background { 
-    grid-column: 4/9;
-    grid-row: 1/11;
+    grid-column: 1/11;
+    grid-row: 4/9;
 }
 .mountains { 
     grid-column: 2/7;
