@@ -90,6 +90,7 @@ footer .social img {
 
 footer a:hover {
     transform: rotate(15deg);
+    background-color: white;
 }
 
 /* Center only the images with the center-image class */
