@@ -28,6 +28,12 @@ body {
 
 h2 {
     margin: 0;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 #hero-msg h1,
@@ -150,7 +156,6 @@ footer a:hover {
     transform: scale(1.1);
 }
 
-/* margin to the .rivers-card, .camping-card, and .rapids-card sections */
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
 }
@@ -241,6 +246,23 @@ a.join:hover {
        text-decoration: underline;
 }
 
+.rivers {
+    float: left;
+    margin-right: 20px;
+    box-shadow: 5px 5px 10px gray; 
+    padding: 5px;
+    transition: transform 1s;
+    
+}
+.rivers :hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+.wireframe {
+    margin-top: 80px;
+    margin-left: 200px;
+    
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -283,4 +305,3 @@ a.join:hover {
         margin-top: 25px;
     }
 }
-      
