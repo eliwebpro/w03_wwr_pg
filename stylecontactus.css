@@ -43,7 +43,9 @@ footer {
 footer .social img {
     padding-top: 15px;
 }
-
+.social img {
+    border-radius: 50%; 
+}
 footer a:hover {
     transform: rotate(15deg);
     background-color: white;
@@ -196,5 +198,3 @@ form {
     transform: translate(-50%, -50%);
     z-index: 2;
 }
-
-  
