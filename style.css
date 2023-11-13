@@ -267,7 +267,7 @@ a.join:hover {
 
 /* Form styling */
 form {
-    margin: 0 auto;
+    margin: 80 auto;
     width: 800px;
     padding: 200px;
     border: 1px solid #ccc;
