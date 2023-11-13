@@ -316,13 +316,15 @@ form {
   }
   
   button {
+    align-items: center;
+    text-align: center;
     background-color: #04AA6D;
     color: white;
     padding: 16px 20px;
-    border: none;
+    border-radius: 20px;
     cursor: pointer;
     width: 100%;
-    opacity: 0.9;
+    opacity: 0.8;
   }
   
   .button:hover {
