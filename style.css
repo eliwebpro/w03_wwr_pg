@@ -282,7 +282,7 @@ form {
   
   form li + li {
     margin-top: 1em;
-    color: white;
+    
   }
   
   label {
@@ -354,6 +354,7 @@ form {
     margin: 40px;
     max-width: 400px;
     padding: 16px;
+    color: white;
     /* background-color: white; */
   }
   
