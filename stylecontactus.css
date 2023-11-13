@@ -90,6 +90,7 @@ form {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    z-index: 1;
   }
   
   /* Container styling */
@@ -112,4 +113,23 @@ form {
     border: none;
     background: #f1f1f1;
   }
+  .container {
+    position: relative;
+}
+
+.background-image {
+    width: 100%;
+    height: auto; /* or a fixed height */
+    position: relative;
+    z-index: 1;
+}
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
   
