@@ -311,8 +311,8 @@ form {
   
   /* Button styling */
   .button {
-    padding-left: 90px;
-    margin-left: 0.5em;
+    align-items: center;
+    text-align: center;
   }
   
   button {
