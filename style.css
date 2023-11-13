@@ -101,9 +101,9 @@ footer {
 }
 
 /* padding to the images inside the .social section in the footer */
-footer .social img {
+/* footer .social img {
     padding-top: 15px;
-}
+} */
 
 footer a:hover {
     transform: rotate(15deg);
