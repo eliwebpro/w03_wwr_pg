@@ -345,12 +345,12 @@ form {
  /* Container styling */
  .container {
     position: absolute;
-    top: 80%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
     right: 0;
-    margin: 20px;
+    margin: 40px;
     max-width: 400px;
     padding: 16px;
     background-color: white;
