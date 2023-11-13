@@ -108,7 +108,7 @@ form {
     margin-left: 0.5em;
   }
   
-  button1 {
+  button {
     background-color: #04AA6D;
     color: white;
     padding: 16px 20px;
@@ -118,7 +118,7 @@ form {
     opacity: 0.9;
   }
   
-  .button1:hover {
+  .button:hover {
     opacity: 1;
   }
   
