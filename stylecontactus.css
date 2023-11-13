@@ -147,8 +147,7 @@ form {
   }
   
   /* Background image styling */
-  .bg-img {
-    background-image: url("rapid_images_form.jfif");
+  #hero {
     min-height: 100px;
     background-position: center;
     background-repeat: no-repeat;
