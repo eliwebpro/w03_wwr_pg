@@ -119,10 +119,13 @@ form {
 
 .background-image {
     width: 100%;
-    height: auto; /* or a fixed height */
+    height: auto;
+    max-width: 100%;  /* Set a maximum width for responsiveness */
     position: relative;
     z-index: 1;
+    background-size: cover;  /* or 'contain' depending on your preference */
 }
+
 
 .form {
     position: absolute;
