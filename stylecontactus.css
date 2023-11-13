@@ -65,7 +65,7 @@ form {
   }
   #feedback {
     background-color: antiquewhite;
-    position: absolute
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -84,7 +84,7 @@ body, html {
     box-sizing: border-box;
   }
   
-  .bg-img {
+.bg-img {
     /* The image used */
     background-image: url("rapid_images_form.jfif");
   
@@ -99,7 +99,7 @@ body, html {
   }
   
   /* Add styles to the form container */
-  .container {
+.container {
     position: absolute;
     right: 0;
     margin: 20px;
@@ -121,15 +121,9 @@ textarea {
 }
 
   
-input[type=text],
-input[type=email],
-textarea {
-    background-color: #ddd;
-    outline: none;
-  }
-  
+ 
   /* Set a style for the submit button */
-  .button {
+.button {
     background-color: #04AA6D;
     color: white;
     padding: 16px 20px;
@@ -139,6 +133,6 @@ textarea {
     opacity: 0.9;
   }
   
-  .button:hover {
+.button:hover {
     opacity: 1;
   }
