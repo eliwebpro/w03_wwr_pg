@@ -270,8 +270,8 @@ form {
     margin: 80 auto;
     width: 800px;
     padding: 200px;
-    border: 1px solid #ccc;
-    border-radius: 2em;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 2em; */
   }
   
   ul {
