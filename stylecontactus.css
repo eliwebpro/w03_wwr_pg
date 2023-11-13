@@ -99,13 +99,13 @@ body, html {
   }
   
   /* Add styles to the form container */
-  /* .container {
+  .container {
     position: absolute;
     right: 0;
     margin: 20px;
     max-width: 300px;
     padding: 16px;
-    background-color: white; */
+    background-color: white;
   }
   
   /* Full-width input fields */
@@ -121,9 +121,11 @@ textarea {
 }
 
   
-  /* input[type=text]:focus, input[type=password]:focus {
+input[type=text],
+input[type=email],
+textarea {
     background-color: #ddd;
-    outline: none; */
+    outline: none;
   }
   
   /* Set a style for the submit button */
