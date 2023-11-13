@@ -271,7 +271,7 @@ form {
     width: 800px;
     padding: 200px;
     /* border: 1px solid #ccc; */
-    /* border-radius: 2em; */
+    border-radius: 2em;
   }
   
   ul {
